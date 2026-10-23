@@ -1,102 +1,134 @@
 ---
 name: visual-craft-workflow
 description: >-
-  Use when asked to design, improve, redesign, audit, or polish a website, app interface, or other visual
-  project. Orchestrates a scope-aware workflow for visual direction, product UX, interaction craft, and
-  evidence-based review while preserving the user’s brief, project identity, and technical constraints.
-  Also use when preparing or presenting a project repository; review its name, description, README, and
-  structure against the actual project identity.
+  Usala cuando te pidan diseñar, mejorar, rediseñar, auditar o pulir un sitio,
+  una interfaz, una app u otro proyecto visual. Coordina dirección visual,
+  decisiones del sistema visual, experiencia de producto, interacción y revisión con
+  evidencia según el alcance, respetando la identidad, el pedido y las
+  restricciones técnicas. También sirve para revisar la identidad y presentación
+  de un repositorio.
 ---
 
 # Visual Craft Workflow
 
-## Purpose
+## Propósito
 
-This project and its adaptive workflow are created and maintained by ARG-NILLS.
+Este proyecto y su flujo adaptable son creados y mantenidos por ARG-NILLS.
 
-Use this as one entry point for visual work. The workflow combines a distinctive visual direction, product UX, interaction craft, and evidence-based review, then activates only the stages that fit the work.
+Usá esta guía como punto de entrada para trabajos visuales. Combina dirección visual propia del proyecto, experiencia de producto, interacción y revisión con evidencia. Activá solo las etapas que mejoren el resultado.
 
-This skill is self-contained. Companion skills and platform-specific tools can deepen a stage, but they are optional. If they are unavailable, continue with this workflow and the tools the host provides. Never claim a tool or review ran when it did not.
+La guía es autocontenida. Las herramientas y especialidades complementarias son opcionales. Si no están disponibles, seguí con esta guía y las herramientas del entorno. No afirmes que una herramienta o revisión se usó si no ocurrió.
 
-## Triage the request
+## Clasificá el pedido
 
-Before acting, identify:
+Antes de actuar, identificá:
 
-- **Intent:** audit, plan, create, redesign, or refine.
-- **Scope:** one detail, component, screen, page, or system.
-- **State:** existing experience or genuinely new work.
-- **Surface:** public page, working app, reading experience, showcase, or another visual artifact.
-- **Constraints:** audience, user goal, brand, stack, content, assets, devices, and deadline.
+- **Objetivo:** auditar, planificar, crear, rediseñar o refinar.
+- **Alcance:** detalle, componente, pantalla, página o sistema.
+- **Estado:** proyecto existente o trabajo realmente nuevo.
+- **Superficie:** página pública, app en uso, experiencia de lectura, muestra u otro artefacto visual.
+- **Condiciones:** público, tarea, marca, tecnologías, contenido, recursos, dispositivos y fecha límite.
+- **Autorización:** analizar, recomendar, editar, instalar, confirmar cambios o publicar.
 
-Read applicable project instructions and inspect the current work when available. Treat audits and plans as read-only unless the user asks for edits. Preserve useful behavior, product facts, and working patterns. Ask only when a missing fact blocks progress; otherwise state a sensible assumption and continue.
+Leé las instrucciones aplicables y revisá el trabajo actual cuando esté disponible. Conservá el comportamiento útil, los hechos del producto y los patrones que funcionan. Si falta un dato, avanzá con una suposición razonable, salvo que cambie materialmente el producto, la marca o el resultado.
 
-## Choose the needed pipeline
+Una auditoría, análisis o plan es de solo lectura salvo que el usuario autorice cambios. En ese alcance, no edites archivos, instales herramientas, cambies configuración, hagas commits ni publiques. La autorización para implementar cambios no incluye autorización para publicar. Si el usuario pide correcciones, delimitá primero qué cambios quedan dentro del pedido y revisá su resultado.
 
-Scale the workflow to the request. Use all three lenses for substantial work that spans visual direction, product UX, and interaction craft. Skip stages that cannot improve the requested result.
+## Elegí las etapas necesarias
 
-| Request | Visual direction | Product UX | Interaction craft |
+Ajustá el flujo al alcance. Para un trabajo amplio que incluya dirección, experiencia e interacción, aplicá el flujo completo. Omití etapas que no aporten al resultado solicitado.
+
+| Pedido | Dirección visual | Experiencia de producto | Interacción |
 | --- | --- | --- | --- |
-| New surface or major redesign | Find a project-specific idea, composition, typography, palette, and imagery. | Define the visitor's goal, content hierarchy, flows, and surface mode. | Apply during implementation to component behavior, states, motion, and finish. |
-| App screen or dashboard | Use app-screen thinking; do not apply a marketing-page recipe to a working tool. | Prioritize task completion, scanability, edge states, accessibility, and consistency. | Refine controls, feedback, focus, keyboard, touch, and useful transitions. |
-| Small refinement | Preserve the existing direction; do not restart the concept process. | Improve only the affected hierarchy, content, layout, or state. | Use only for the affected component or interaction. |
-| Audit or critique | Inspect the rendered page or artifact when possible. | Assess usability and technical interface quality within the requested scope. | Review motion only when it is part of the request. Do not edit. |
-| Motion-only work | Skip unless the visual concept changes. | Consider interaction clarity and reduced-motion behavior. | Decide whether motion helps, then assess timing, interruption, frequency, and performance. |
-| Non-visual work | Skip. | Skip unless interface behavior or presentation changes. | Skip. |
+| Superficie nueva o rediseño amplio | Definí concepto, composición, tipografía, paleta e imágenes propias del proyecto. | Definí el objetivo, jerarquía de contenido, recorridos y tipo de superficie. | Aplicá comportamiento, estados, movimiento y acabado durante la implementación autorizada. |
+| Pantalla de una app | Usá criterios de una herramienta en uso; no copies la receta de una página promocional. | Priorizá tareas, lectura rápida, estados límite, accesibilidad y consistencia. | Revisá controles, respuesta visual, foco, teclado, tacto y transiciones útiles. |
+| Ajuste puntual | Conservá la dirección actual; no reinicies el concepto. | Mejorá solo la jerarquía, el contenido, el diseño o el estado afectado. | Ajustá únicamente el componente o la interacción involucrados. |
+| Auditoría o crítica | Revisá la página o el artefacto renderizado cuando sea posible. | Evaluá la usabilidad y la calidad técnica dentro del alcance pedido. | Revisá movimiento solo si forma parte del pedido. No edites. |
+| Trabajo centrado en movimiento | Omití esta etapa salvo que cambie el concepto visual. | Considerá claridad y movimiento reducido. | Decidí si aporta; revisá duración, interrupción, frecuencia y rendimiento. |
+| Trabajo no visual | Omití esta etapa. | Omitila salvo que cambien el comportamiento o la presentación de una interfaz. | Omitila. |
 
-For a full design pipeline, work in this order: establish the visual idea, shape the experience around the user's goal, then implement interaction and detail. Revisit earlier choices when real output shows a problem.
+Para el flujo completo, avanzá en este orden: entendé el producto y definí la dirección; organizá la experiencia según la tarea; implementá interacción y detalle cuando esté autorizado; revisá el resultado con evidencia. Volvé a decisiones anteriores si el resultado real muestra un problema.
 
-## 1. Establish visual truth
+## 1. Entendé el producto y su dirección
 
-For existing work, inspect its structure, routes or screens, design tokens, typography, copy, assets, behavior, and rendered appearance. Identify what must stay and what the user asked to change. A missing design document does not mean the product has no established style.
+En un proyecto existente, revisá estructura, pantallas o rutas, tokens de diseño, tipografía, textos, recursos, comportamiento y resultado visual. Identificá qué debe conservarse y qué pidió cambiar el usuario. La falta de documentación de diseño no significa que el producto carezca de estilo propio.
 
-For new work, understand the subject, audience, purpose, evidence, and constraints before choosing a visual direction. Look for distinctive facts, materials, places, language, product behavior, or real assets that belong to this project. Build the concept from those specifics; avoid generic layouts and decoration without a reason.
+En un proyecto nuevo, entendé tema, público, propósito, evidencia y restricciones antes de elegir la dirección visual. Buscá hechos, materiales, lugares, lenguaje, comportamiento o recursos que pertenezcan al proyecto. Basá el concepto en esos detalles; evitá composiciones genéricas y decoración sin propósito.
 
-Choose the ambition that fits the surface:
+Elegí el enfoque según la superficie:
 
-- **Persuade:** a visitor should understand an offer and act, as on a landing or pricing page.
-- **Operate:** a user should complete a task, as in a dashboard, editor, or admin tool.
-- **Read:** a person should understand and follow content.
-- **Experience:** the work itself should lead, as in a portfolio or gallery.
+- **Convencer:** la persona debe entender una propuesta y actuar, como en una página de inicio o de precios.
+- **Operar:** la persona debe completar una tarea, como en un panel, editor o herramienta administrativa.
+- **Leer:** la persona debe entender y seguir contenido.
+- **Experimentar:** la obra debe llevar el protagonismo, como en un portafolio o una galería.
 
-A product marketing page and the app it depicts are different surfaces. Give each the right structure while keeping their visual system coherent.
+Una página de marketing y la app que presenta son superficies distintas. Dales estructuras adecuadas y mantené coherente su sistema visual.
 
-## 2. Shape the experience
+## 2. Definí o adaptá el sistema visual
 
-Make the primary user goal obvious. Organize real content before polishing decoration. Map navigation, important actions, and key states. For interfaces, account for loading, empty, success, and error states when they apply. Give each visible action an honest destination or outcome; do not invent product claims, metrics, or functionality.
+En un proyecto existente, tomá su identidad y sus tokens de diseño como base. Decidí si el pedido requiere conservarlos, ampliarlos o reemplazarlos. Cambiá solo lo que el pedido justifique; no regeneres el sistema solo porque sea posible proponer otra dirección.
 
-For a refinement, keep the existing identity and behavior outside the requested scope. For a redesign, preserve product truth, content, and required functions while making a deliberate replacement direction. Do not split a redesign between the old visual world and a new one without a reason.
+En un proyecto nuevo o un rediseño amplio solicitado, derivá un sistema breve del producto, la tarea principal, la plataforma, el contenido y la dirección visual explícita. Especificá solo lo necesario: funciones de color, jerarquía tipográfica, espaciado y densidad, estructuras de página, superficies, componentes, estados y movimiento. Incluí límites de accesibilidad, rendimiento y patrones que deben evitarse cuando correspondan. Elegí patrones compatibles con la plataforma y las tecnologías reales del proyecto. Las referencias orientan; no reemplazan el pedido ni la evidencia actual.
 
-## 3. Build with craft
+Si el proyecto ya tiene una fuente de verdad para su sistema de diseño, extendela en vez de duplicarla. Mantené pequeñas y explícitas las excepciones por pantalla. En trabajos amplios que atraviesen varias etapas o sesiones, registrá objetivo, tarea principal, plataforma, elementos invariables, decisiones, supuestos y criterios de aceptación en la documentación existente cuando ayude a dar continuidad. No crees documentos adicionales para un ajuste puntual o una auditoría de solo lectura.
 
-Use the project's current stack, design system, components, and tokens unless the user asks to change them. Keep layouts responsive and content legible. Use real, project-relevant imagery when available; label placeholders and unknowns honestly.
+En trabajos largos, marcá cada cambio de etapa con un resumen breve de decisiones y el paso siguiente. Seguí cuando alcance con una suposición razonable. Preguntá solo si falta una decisión importante que no pueda inferirse de la evidencia.
 
-Every interaction should communicate its state. Include relevant hover, pressed, focus, selected, disabled, and validation states. Support keyboard and touch input where applicable. Motion should explain a change, preserve spatial continuity, or give useful feedback. Reduce or remove motion for repeated actions, respect reduced-motion preferences, and avoid effects that hurt readability or performance.
+## 3. Organizá la experiencia
 
-The user's explicit visual direction and the project's established identity take priority over any house-style default. This includes ambitious styles such as liquid glass. When that direction is requested or clearly relevant, use the on-demand [liquid-glass style reference](references/liquid-glass-style.md). Keep contrast, accessibility, usability, and runtime cost in view while honoring the brief.
+Partí de la tarea principal. Hacé evidente el próximo paso y su resultado. Ordená el contenido real antes de pulir la decoración. Mapeá navegación, acciones importantes y estados clave. En interfaces, contemplá carga, estado vacío, éxito y error cuando corresponda. Cada acción visible debe llevar a un destino o resultado real; no inventes capacidades, métricas ni promesas del producto.
 
-## 4. Review the result
+Usá pocas comprobaciones de usabilidad, elegidas según el caso: orientación, consistencia, prevención y recuperación de errores, reconocimiento y finalización de tareas. No agregues listas de heurísticas que no correspondan a la superficie.
 
-When implementation is in scope, inspect the actual rendered output at representative sizes and states. Choose checks that match the surface and request: responsive layout, navigation and controls, keyboard flow, touch targets, reduced motion, contrast, accessibility, console or network behavior, and performance. For a static visual artifact, review its composition, legibility, fidelity, and export instead of forcing web checks.
+En un ajuste puntual, mantené la identidad y el comportamiento fuera del alcance solicitado. En un rediseño, conservá la verdad del producto, el contenido y las funciones necesarias, con una dirección de reemplazo deliberada. No mezcles el lenguaje visual anterior con el nuevo sin una razón.
 
-Fix observed issues within scope and review the changed result again. If the runtime, browser, device, or asset is unavailable, report that limitation. Separate source inspection from live verification.
+## 4. Implementá con cuidado
 
-## 5. Report clearly
+Usá las tecnologías, el sistema de diseño, los componentes y los tokens actuales salvo que el usuario pida cambiarlos. Mantené la composición adaptable y el contenido legible en pantallas angostas, con zoom y con textos largos o localizados. Evitá que se superpongan etiquetas y controles. Poneles nombres accesibles a los controles solo con ícono y marcá como decorativos los íconos que no transmiten información.
 
-Summarize the work or prioritized findings, the checks actually performed, and remaining gaps. Keep recommendations concrete and tied to the user's goal. Do not claim a design, route, device, or interaction was reviewed unless evidence supports it.
+Cada interacción debe comunicar su estado. Incluí estados de foco, pulsación, selección, desactivación y validación cuando correspondan. Admití teclado y tacto. Las acciones interrumpibles deben poder detenerse o revertirse con seguridad. El movimiento debe explicar un cambio, mantener continuidad espacial o dar respuesta útil. Reducilo o quitálo en acciones repetidas, respetá la preferencia de movimiento reducido y evitá efectos que afecten la lectura o el rendimiento.
 
-## Repository identity and presentation
+La dirección visual explícita del usuario y la identidad existente tienen prioridad sobre cualquier estilo predeterminado. Esto incluye estilos llamativos como Liquid Glass. Si el pedido lo requiere, consultá la [referencia de estilo Liquid Glass](references/liquid-glass-style.md). Conservá contraste, accesibilidad, usabilidad y costo de ejecución.
 
-When a request prepares, brands, publishes, or broadly polishes a project repository, review its public-facing identity and presentation:
+## 5. Revisá el resultado
 
-- Compare the repository slug with the actual project, product, package, or skill name. For this skill’s repository, the slug, skill folder, and `name` frontmatter must all be `visual-craft-workflow`.
-- For another repository, compare its slug with that project’s own identity. Never compare it with this skill’s name.
-- Check GitHub’s short description, README hierarchy, quick start, repository map, examples, links, visual assets, and license status. Keep every claim consistent with files and verified host behavior.
-- Use emojis and visual accents sparingly and consistently. Add badges only when they show a true, maintainable status.
-- Fix clear presentation issues when repository setup or polish is in scope. For narrow code or UI work, flag unrelated repository issues without rewriting documentation.
-- Do not invent releases, tests, features, compatibility, or a license. Do not rename a remote repository or change its visibility without explicit direction; those changes can break links and access.
+Cuando la implementación esté dentro del alcance autorizado, inspeccioná el resultado renderizado en tamaños y estados representativos. Elegí controles según el pedido: diseño adaptable, navegación, controles, recorrido con teclado, objetivos táctiles, movimiento reducido, contraste, accesibilidad, consola, red y rendimiento. Para una pieza estática, revisá composición, legibilidad, fidelidad y exportación; no fuerces controles web que no correspondan.
 
-Use this check for future repositories without applying this skill’s name or visual brand to them.
+Compará el resultado con el pedido y los criterios de aceptación. En auditorías, registrá para cada hallazgo ubicación y estado, tarea afectada, evidencia observada, impacto, prioridad y corrección concreta. Separá observaciones de inferencias. Priorizá bloqueos de tarea antes de fricciones y pulido visual; usá la escala de severidad existente si la hay.
 
-## Optional tools
+Corregí problemas solo si están dentro del alcance autorizado y revisá de nuevo el resultado modificado. Si falta el entorno, navegador, dispositivo o recurso necesario, informá esa limitación. Separá la inspección del código de la verificación en vivo.
 
-Platform-specific tools and additional skills may deepen individual stages. They remain optional; this workflow continues with the host’s available tools and project context.
+## 6. Informá con claridad
+
+Resumí el trabajo o los hallazgos priorizados, las comprobaciones realmente realizadas y las brechas pendientes. Relacioná las recomendaciones con el objetivo del usuario. No afirmes que revisaste un diseño, ruta, dispositivo o interacción sin evidencia.
+
+## Identidad y presentación de repositorios
+
+Cuando el usuario pida preparar, presentar, publicar o mejorar ampliamente un repositorio, revisá su identidad y presentación públicas:
+
+- Compará el nombre corto del repositorio con el proyecto, producto, paquete o skill real. En este repositorio, el nombre, la carpeta y el campo name deben coincidir con visual-craft-workflow.
+- En otros repositorios, compará el nombre con la identidad de ese proyecto. No les impongas el nombre ni la marca de este proyecto.
+- Revisá la descripción de GitHub, jerarquía del README, inicio rápido, mapa del repositorio, ejemplos, enlaces, recursos visuales y licencia. Contrastá cada afirmación con los archivos y el comportamiento del host que se haya verificado.
+- Para la comunicación pública de este proyecto, describí capacidades propias sin enumerar nombres de skills externas, sus autores o sus repositorios. Para otros repositorios, respetá su política de autoría y atribución.
+- Conservá los avisos de licencia y atribuciones exigidos por las licencias aplicables. No elimines avisos legales para cumplir una pauta editorial.
+- Usá emojis y recursos visuales con moderación y coherencia. Agregá insignias solo si muestran un estado real y mantenible.
+- Corregí problemas claros de presentación cuando preparar el repositorio forme parte del pedido. Para cambios puntuales de código o interfaz, señalá problemas ajenos al alcance sin reescribir documentación.
+- No inventes versiones, pruebas, funciones, compatibilidad ni licencias. No cambies el nombre remoto ni la visibilidad sin autorización explícita; esos cambios pueden romper enlaces y accesos.
+
+Aplicá esta revisión a otros proyectos sin trasladarles el nombre ni la identidad visual de esta guía.
+
+## Herramientas y especialidades complementarias
+
+Usá herramientas o especialidades disponibles solo cuando mejoren una etapa concreta. Consultá sus instrucciones reales si el entorno las ofrece; no dependas de nombres ni de resúmenes recordados.
+
+- **Dirección visual:** define el concepto específico, la composición, tipografía, paleta, imágenes y crítica del resultado renderizado.
+- **Sistema de diseño:** se usa en sistemas nuevos o rediseños amplios. Aporta patrones según plataforma, estilos, recomendaciones de color y tipografía, límites de experiencia y guía para las tecnologías. Tomá sus propuestas como candidatas. Conservá el sistema existente salvo que el usuario pida reemplazarlo.
+- **Experiencia de producto:** cubre el tipo de superficie, la tarea principal, jerarquía, recorridos, estados, textos de interfaz, adaptación, accesibilidad y casos de producción.
+- **Método puntual de producto:** elegí uno para una incertidumbre real. Definí la tarea de la persona si el pedido no se entiende; planteá una hipótesis comprobable si hay incertidumbre sobre el comportamiento; revisá heurísticas en auditorías de usabilidad; revisá tipografía si hay problemas de lectura o composición; evaluá conversión solo si el usuario pide un objetivo de conversión; revisá rendimiento del navegador si lo piden o si la evidencia apunta a ese problema.
+- **Interacción:** define si conviene usar movimiento, su ritmo, aceleración, interrupción, gestos, movimiento reducido y rendimiento de animación.
+
+En trabajos amplios, trasladá supuestos, decisiones y criterios de aceptación entre etapas. Reutilizá la documentación que ya existe; no dupliques planes ni pidas una decisión en cada etapa si la evidencia permite avanzar.
+
+Usá todas las especialidades relevantes en trabajos amplios y omití las que no aporten en cambios puntuales. Esta guía coordina el proceso: combina hallazgos compatibles, elimina duplicados y resuelve conflictos en este orden: dirección explícita del usuario, hechos y comportamiento verificados del proyecto, finalización de tareas y accesibilidad, diferenciación visual y, por último, decoración.
+
+Las especialidades orientan, pero no pueden imponerse al pedido, la marca, las tecnologías ni la evidencia del proyecto. Son opcionales. Si no están disponibles, seguí con esta guía y las herramientas del entorno. No afirmes que usaste una herramienta o especialidad si no fue así.

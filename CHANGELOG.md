@@ -1,24 +1,37 @@
-# Changelog
+# Historial de cambios
 
-## Unreleased
+> Registro de cambios del repositorio. Esta sección no tiene una versión ni una etiqueta de GitHub asociadas.
 
-- Added an MIT license and documented public-repository installation.
-- Replaced the separate README logo and pipeline banner with one supplied Visual Craft Workflow hero image.
+## Cambios sin versión
 
-- Integrated the liquid-glass logo into the adaptive workflow banner.
-- Added ARG-NILLS authorship and replaced named source lenses with capability-based stages.
-- Removed the separate sources document; the skill remains self-contained and includes no upstream source files.
-- Added an on-demand liquid-glass style reference with reusable image prompts and UI guidance for contrast, motion, and rendering cost.
-- Replaced the abstract banner with a four-stage workflow diagram and added a reusable minimalist logo mark and lockup.
-- Made the transparent liquid-glass emblem the primary logo and README hero.
-- Added a reusable repository identity and presentation review for future project repositories.
-- Refined the README hierarchy and added a custom visual banner.
-- Updated the repository description to match the skill’s actual scope.
+### 🎨 Flujo visual y sistema
 
-## 0.1.0 — 2026-10-22
+- 🧭 Se sumó un resumen visual basado en el producto, la tarea principal, la plataforma, la marca y las restricciones reales.
+- 🧩 Se incorporaron recomendaciones de sistemas visuales y tecnologías para proyectos nuevos o rediseños amplios; se conserva el sistema existente en ajustes puntuales.
+- 🔀 Se agregó enrutamiento selectivo para descubrimiento, heurísticas, tipografía, microinteracciones, conversión y rendimiento según la necesidad concreta.
+- 🗂️ Se añadieron puntos de control y registro de decisiones para trabajos extensos, reutilizando la documentación existente del proyecto.
+- ♿ Se reforzaron las revisiones de experiencia con evidencia por tarea, impacto, prioridad y separación entre observaciones e inferencias.
 
-- Created a self-contained, model-agnostic visual improvement workflow.
-- Added scope-aware routing for audits, plans, major redesigns, focused refinements, and motion work.
-- Added installation and compatibility notes for Codex, Gemini CLI, and MiniMax Code.
-- Kept specialist source skills optional and documented attribution.
+### 🛠️ Criterios de calidad
 
+- 🎛️ Se definieron responsabilidades para cada especialidad y una prioridad clara para resolver conflictos entre instrucciones, marca, comportamiento y accesibilidad.
+- 🫧 Se agregó una referencia Liquid Glass opcional con pautas visuales, de contraste, movimiento y costo de renderizado.
+- 🧱 Se incorporó una revisión reutilizable de identidad y presentación para preparar otros repositorios sin imponerles la marca de esta guía.
+- 🔒 Se aclaró que auditorías y planes son de solo lectura; las correcciones y la publicación requieren autorización dentro de su alcance.
+- ⚖️ Se acotó la pauta de autoría de este repositorio y se explicitó la obligación de conservar avisos de licencia y atribuciones aplicables.
+- 🇦🇷 Se tradujeron las instrucciones públicas al español latinoamericano; se conserva el texto legal de la licencia MIT.
+
+### 📦 Presentación y distribución
+
+- 🖼️ Se reemplazaron el banner y el logo separados por una sola imagen de portada proporcionada para Visual Craft Workflow.
+- 📖 Se reorganizó el README para explicar propósito, capacidades, flujo, instalación y compatibilidad.
+- 🔐 Se agregó la licencia MIT y se documentó la instalación pública en distintos agentes.
+- 👤 Se consolidó la autoría de ARG-NILLS y se mantuvo el flujo portable sin incluir archivos de skills externas.
+- 🔗 Se enlazó la documentación oficial consultada para la compatibilidad de los hosts mencionados.
+
+## Origen del proyecto — 2026-10-22
+
+- 🧠 Se creó un flujo visual autocontenido y adaptable a distintos modelos.
+- 🔀 Se agregó enrutamiento según alcance para auditorías, planes, rediseños amplios, mejoras puntuales y movimiento.
+- 🌎 Se documentó la instalación y compatibilidad con Codex, Gemini CLI y MiniMax Code.
+- 🧩 Se dejaron las especialidades complementarias como opcionales y se documentó el respeto por sus licencias.
