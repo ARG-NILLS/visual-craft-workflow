@@ -1,8 +1,10 @@
 # Historial de cambios
 
-> Registro de cambios del repositorio. Esta sección no tiene una versión ni una etiqueta de GitHub asociadas.
+> Registro de cambios del repositorio, organizado por versiones publicadas.
 
-## Cambios sin versión
+## [1.0.0] - 2026-10-23
+
+> Primera versión estable y release inicial de Visual Craft Workflow.
 
 ### 🎨 Flujo visual y sistema
 
