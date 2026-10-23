@@ -141,4 +141,4 @@ Revisá [CHANGELOG.md](CHANGELOG.md) para ver su evolución.
 
 ## ⚖️ Licencia
 
-Este proyecto se distribuye bajo la licencia [MIT](LICENSE). Conservá el aviso de autoría de ARG-NILLS al reutilizarlo.
+Este proyecto se distribuye bajo la licencia [MIT](LICENSE). Al redistribuir copias o partes sustanciales, conservá el aviso de derechos de autor y el texto de permiso incluidos en LICENSE.
