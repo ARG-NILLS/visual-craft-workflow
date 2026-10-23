@@ -1,5 +1,12 @@
 <p align="center"><img src="assets/visual-craft-workflow-banner.png" alt="Visual Craft Workflow, flujo visual y de producto con cinco capacidades. Creado por ARG-NILLS." width="100%"></p>
 
+<p align="center">
+  <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/Agent%20Skills-compatible-6C63FF?style=for-the-badge" alt="Formato Agent Skills compatible"></a>
+  <a href="#-pipeline-adaptable"><img src="https://img.shields.io/badge/Pipeline-adaptable-8B5CF6?style=for-the-badge" alt="Pipeline visual adaptable"></a>
+  <a href="#-compatibilidad"><img src="https://img.shields.io/badge/Agentes-Codex%20%7C%20Gemini%20CLI%20%7C%20MiniMax-14B8A6?style=for-the-badge" alt="Instalación documentada para Codex, Gemini CLI y MiniMax"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/Licencia-MIT-D6B948?style=for-the-badge" alt="Licencia MIT"></a>
+</p>
+
 <h1 align="center">Visual Craft Workflow</h1>
 
 <p align="center"><strong>Una skill adaptable para crear y mejorar experiencias digitales con intención visual y evidencia.</strong></p>
