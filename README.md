@@ -28,13 +28,9 @@ Antes de diseñar, concretá la tarea principal, la plataforma, la identidad que
 
 ## 🧭 Flujo adaptable
 
-```mermaid
-flowchart LR
-    A["🎨 Dirección visual"] --> B["🧭 UX de producto"]
-    B --> C["✦ Diseño de interacción"]
-    C --> D["✓ Revisión con evidencia"]
-    D -. iterar según resultado .-> A
-```
+https://github.com/user-attachments/assets/fb37d528-5e74-4a4b-a4fd-bcebb833acb0
+
+<p align="center">Descargá el video: <a href="assets/flujo-adaptable.webm">flujo-adaptable.webm</a>.</p>
 
 ### Capacidades integradas
 
@@ -64,6 +60,7 @@ Activá solo las etapas que mejoran el resultado. Descubrimiento, tipografía, h
 ```text
 visual-craft-workflow/
 ├── assets/
+│   ├── flujo-adaptable.webm
 │   └── visual-craft-workflow-banner.png
 ├── CHANGELOG.md
 ├── README.md
