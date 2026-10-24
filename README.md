@@ -28,9 +28,9 @@ Antes de diseñar, concretá la tarea principal, la plataforma, la identidad que
 
 ## 🧭 Flujo adaptable
 
-https://github.com/user-attachments/assets/fb37d528-5e74-4a4b-a4fd-bcebb833acb0
+https://github.com/user-attachments/assets/e823339a-4e51-4de6-907c-e5fcdba8dce3
 
-<p align="center">Descargá el video: <a href="assets/flujo-adaptable.webm">flujo-adaptable.webm</a>.</p>
+<p align="center">Descargá el video: <a href="assets/Visual-Craft-Workflow-ejemplo.webm">Visual-Craft-Workflow-ejemplo.webm</a>.</p>
 
 ### Capacidades integradas
 
@@ -60,7 +60,7 @@ Activá solo las etapas que mejoran el resultado. Descubrimiento, tipografía, h
 ```text
 visual-craft-workflow/
 ├── assets/
-│   ├── flujo-adaptable.webm
+│   ├── Visual-Craft-Workflow-ejemplo.webm
 │   └── visual-craft-workflow-banner.png
 ├── CHANGELOG.md
 ├── README.md
