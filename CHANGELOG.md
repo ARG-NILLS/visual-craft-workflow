@@ -2,6 +2,17 @@
 
 > Registro de cambios del repositorio, organizado por versiones publicadas.
 
+## [1.1.0] - 2026-10-24
+
+> Material de partida para superficies visuales, y guía para escribir código de interfaz.
+
+### 🧰 Herramientas de construcción
+
+- 🧱 Se agregó una referencia de herramientas para superficies visuales: criterio para decidir qué construir y cómo, y los comandos genéricos para obtener material de partida desde un registro de componentes.
+- 🎯 La referencia ordena las decisiones por etapa —comportamiento, composición, material y evidencia— y descarta las herramientas cuando el proyecto ya define sus propios componentes.
+- ♿ Se priorizó el comportamiento accesible por sobre el efecto visual, y el coste de renderizado por sobre el impacto decorativo.
+- 🧾 Se aclararon las formas de reportar el uso: qué aportó una herramienta y qué se verificó, sin nombrar herramientas ausentes.
+
 ## [1.0.0] - 2026-10-23
 
 > Primera versión estable y release inicial de Visual Craft Workflow.

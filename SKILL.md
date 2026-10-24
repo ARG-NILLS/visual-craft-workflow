@@ -90,6 +90,8 @@ Cada interacción debe comunicar su estado. Incluí estados de foco, pulsación,
 
 La dirección visual explícita del usuario y la identidad existente tienen prioridad sobre cualquier estilo predeterminado. Esto incluye estilos llamativos como Liquid Glass. Si el pedido lo requiere, consultá la [referencia de estilo Liquid Glass](references/liquid-glass-style.md). Conservá contraste, accesibilidad, usabilidad y costo de ejecución.
 
+Cuando el trabajo incluya escribir o completar código de interfaz y el proyecto no defina sus propios componentes, consultá la [referencia de herramientas para superficies visuales](references/ui-tooling.md) para decidir qué construir y cómo. Esa referencia orienta; no reemplaza el pedido ni la evidencia del proyecto.
+
 ## 5. Revisá el resultado
 
 Cuando la implementación esté dentro del alcance autorizado, inspeccioná el resultado renderizado en tamaños y estados representativos. Elegí controles según el pedido: diseño adaptable, navegación, controles, recorrido con teclado, objetivos táctiles, movimiento reducido, contraste, accesibilidad, consola, red y rendimiento. Para una pieza estática, revisá composición, legibilidad, fidelidad y exportación; no fuerces controles web que no correspondan.
@@ -126,6 +128,7 @@ Usá herramientas o especialidades disponibles solo cuando mejoren una etapa con
 - **Experiencia de producto:** cubre el tipo de superficie, la tarea principal, jerarquía, recorridos, estados, textos de interfaz, adaptación, accesibilidad y casos de producción.
 - **Método puntual de producto:** elegí uno para una incertidumbre real. Definí la tarea de la persona si el pedido no se entiende; planteá una hipótesis comprobable si hay incertidumbre sobre el comportamiento; revisá heurísticas en auditorías de usabilidad; revisá tipografía si hay problemas de lectura o composición; evaluá conversión solo si el usuario pide un objetivo de conversión; revisá rendimiento del navegador si lo piden o si la evidencia apunta a ese problema.
 - **Interacción:** define si conviene usar movimiento, su ritmo, aceleración, interrupción, gestos, movimiento reducido y rendimiento de animación.
+- **Material de partida:** cuando el trabajo incluya escribir código de interfaz y el proyecto no defina sus propios componentes, la [referencia de herramientas para superficies visuales](references/ui-tooling.md) orienta qué construir, cómo y con qué costo. Aporta criterio de comportamiento, composición, material y evidencia, además de los comandos genéricos para obtener material de partida desde un registro de componentes. Sus propuestas son candidatas: no imponen un stack ni reemplazan el sistema existente.
 
 En trabajos amplios, trasladá supuestos, decisiones y criterios de aceptación entre etapas. Reutilizá la documentación que ya existe; no dupliques planes ni pidas una decisión en cada etapa si la evidencia permite avanzar.
 
