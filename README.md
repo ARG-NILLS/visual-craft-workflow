@@ -2,76 +2,100 @@
 
 <p align="center">
   <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/Agent%20Skills-compatible-6C63FF?style=for-the-badge" alt="Formato Agent Skills compatible"></a>
-  <a href="#-flujo-adaptable"><img src="https://img.shields.io/badge/Flujo-adaptable-8B5CF6?style=for-the-badge" alt="Flujo visual adaptable"></a>
-  <a href="#-compatibilidad"><img src="https://img.shields.io/badge/Agentes-Codex%20%7C%20Gemini%20CLI%20%7C%20MiniMax-14B8A6?style=for-the-badge" alt="Instalación documentada para Codex, Gemini CLI y MiniMax"></a>
+  <a href="#-flujo-adaptable"><img src="https://img.shields.io/badge/Flujo-adaptable-8B5CF6?style=for-the-badge" alt="Flujo adaptable"></a>
+  <a href="#-compatibilidad"><img src="https://img.shields.io/badge/Agentes-Codex%20%7C%20Gemini%20CLI%20%7C%20MiniMax-14B8A6?style=for-the-badge" alt="Compatibilidad documentada con distintos agentes"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Licencia-MIT-D6B948?style=for-the-badge" alt="Licencia MIT"></a>
 </p>
 
 <h1 align="center">Visual Craft Workflow</h1>
 
-<p align="center"><strong>Una skill adaptable para crear y mejorar experiencias digitales con intención visual y evidencia.</strong></p>
+<p align="center"><strong>Una skill adaptable para mejorar experiencias digitales y marketing de producto con intención y evidencia.</strong></p>
 <p align="center">Creada y refinada por <strong>ARG-NILLS</strong></p>
-<p align="center">🎨 Dirección visual · 🧭 UX de producto · ✦ Interacción · ✓ Revisión</p>
-<p align="center"><code>visual-craft-workflow</code> · Formato Agent Skills · Instrucciones y documentación en español</p>
+<p align="center">🎨 Dirección visual · 🧭 UX de producto · ✦ Interacción · 📣 Marketing · ✓ Revisión</p>
+<p align="center">visual-craft-workflow · Formato Agent Skills · Instrucciones y documentación en español</p>
 
-<p align="center"><a href="#-qué-resuelve">Qué resuelve</a> · <a href="#-flujo-adaptable">Flujo</a> · <a href="#-instalación">Instalación</a> · <a href="#-compatibilidad">Compatibilidad</a></p>
+<p align="center"><a href="#-qué-resuelve">Qué resuelve</a> · <a href="#-flujo-adaptable">Flujo</a> · <a href="#-marketing">Marketing</a> · <a href="#-instalación">Instalación</a> · <a href="#-compatibilidad">Compatibilidad</a></p>
 
-> Una sola entrada. Un flujo adaptable al alcance real del trabajo.
+> Una sola entrada. Etapas ajustadas al alcance, con marca, contexto y evidencia compartidos.
 
 ## ✦ Qué resuelve
 
-Guía a agentes de IA al diseñar, rediseñar, refinar, planificar o auditar sitios, apps, interfaces y otros proyectos visuales. Conserva la marca, las tecnologías, el contenido y las restricciones del proyecto.
+Guía a agentes de IA para diseñar, rediseñar, refinar, planificar o auditar sitios, apps, interfaces y otros proyectos visuales. También ayuda con estrategia y ejecución de marketing para productos digitales.
 
-La skill elige solo las etapas útiles. Una auditoría sigue siendo de solo lectura; una mejora pequeña conserva la dirección existente; un rediseño amplio puede usar el flujo completo.
-
-Antes de diseñar, concretá la tarea principal, la plataforma, la identidad que debe conservarse y cómo se reconocerá un buen resultado. En proyectos nuevos, proponé un sistema visual acorde al producto; en proyectos existentes, heredalo y extendelo. En trabajos amplios, guardá decisiones por etapas en la documentación del proyecto solo cuando aporten continuidad.
+Conserva la marca, las tecnologías, el contenido y las restricciones del proyecto. Una auditoría es de solo lectura; un ajuste puntual mantiene la dirección existente; un rediseño amplio puede recorrer más etapas. El trabajo comercial se activa según el objetivo y la evidencia disponible.
 
 ## 🧭 Flujo adaptable
+
+### Mapa actualizado
+
+<p align="center"><img src="assets/flujo-de-pedido-en-cuatro-etapas.png" alt="Diagrama del flujo adaptable: auditoría, ajuste puntual, proyecto, marketing, repositorio visual y tarea no visual." width="100%"></p>
+
+### Ejemplo animado
 
 https://github.com/user-attachments/assets/e823339a-4e51-4de6-907c-e5fcdba8dce3
 
 <p align="center">Descargá el video: <a href="assets/Visual-Craft-Workflow-ejemplo.webm">Visual-Craft-Workflow-ejemplo.webm</a>.</p>
+<p align="center">El video muestra un recorrido animado; el diagrama superior presenta las rutas actuales.</p>
 
-### Capacidades integradas
+### Capacidades
 
 | Etapa | Aporta |
 | --- | --- |
-| **Dirección visual y sistema** | Concepto, patrones según plataforma y tecnologías, tokens de diseño, composición, tipografía, color e imágenes; se define cuando el alcance lo justifica. |
-| **Experiencia de producto** | Tareas, jerarquía, recorridos, estados, descubrimiento y comprobaciones de usabilidad pertinentes. |
-| **Diseño de interacción** | Teclado, tacto, movimiento, respuesta visual y acabado. |
-| **Revisión con evidencia** | Comprobaciones y hallazgos priorizados según impacto y evidencia. |
+| **Dirección visual** | Concepto, composición, tipografía, color, imágenes y materiales propios del producto. |
+| **Experiencia de producto** | Tareas, jerarquía, recorridos, estados y comprobaciones de usabilidad pertinentes. |
+| **Interacción** | Controles, teclado, tacto, movimiento, respuesta visual y adaptación. |
+| **Marketing de producto** | Estrategia, contenido, adquisición, conversión, retención y medición según el objetivo. |
+| **Revisión con evidencia** | Comprobaciones y hallazgos priorizados; observaciones separadas de supuestos. |
 
-Activá solo las etapas que mejoran el resultado. Descubrimiento, tipografía, heurísticas, microinteracciones, conversión y rendimiento se consultan cuando responden a una necesidad concreta. El flujo funciona sin herramientas ni especialidades complementarias.
+Activá solo las etapas que mejoran el resultado. El flujo funciona sin herramientas complementarias; las integraciones son opcionales.
 
 ## 🔀 Enrutamiento
 
 | Solicitud | Enfoque |
 | --- | --- |
-| Superficie nueva o rediseño amplio | Concepto, experiencia, implementación y revisión. |
-| Pantalla de una app | Tareas, estados, legibilidad, accesibilidad e interacción. |
-| Ajuste puntual | Mantener la identidad; cambiar solo lo pedido. |
-| Auditoría o crítica | Revisar la evidencia disponible; no editar. |
-| Movimiento | Claridad, duración, frecuencia, rendimiento y movimiento reducido. |
-| Repositorio en preparación o mejora | Revisar identidad, descripción, README, estructura y presentación. |
-| Trabajo no visual | Omitir el flujo visual. |
+| Auditoría o crítica | Revisar evidencia, informar límites y no editar. |
+| Ajuste puntual | Mantener identidad y tocar solo el área pedida. |
+| Proyecto nuevo o rediseño | Comprender producto, definir dirección y validar experiencia. |
+| Movimiento o efecto visual | Revisar propósito, accesibilidad, adaptación y costo. |
+| Marketing de producto digital | Activar los grupos comerciales necesarios. |
+| Trabajo combinado | Compartir contexto y objetivo entre diseño y marketing. |
+| Pedido no visual ni comercial | Omitir este flujo. |
+
+## 📣 Marketing
+
+| Grupo | Ejemplos de trabajo | Entrega esperada |
+| --- | --- | --- |
+| **Estrategia** | Audiencia, alternativas, posicionamiento, oferta, precios y lanzamiento. | Decisiones y prioridades con supuestos visibles. |
+| **Contenido** | Voz, mensajes, páginas, textos, piezas, video y calendario. | Contenidos ajustados a audiencia, canal y hechos confirmados. |
+| **Adquisición** | SEO, búsqueda con IA, anuncios, redes, alianzas, comunidad, prensa y eventos. | Canales elegidos según objetivo, recursos y evidencia. |
+| **Conversión y activación** | Páginas, formularios, registro, onboarding y planes. | Recorrido claro, acción real y medición pertinente. |
+| **Retención y recomendación** | Mensajes, recuperación, cancelación, referidos y expansión. | Experimentos o recorridos con consentimiento y objetivo claro. |
+| **Operación y medición** | Analítica, atribución, experimentos y coordinación comercial. | Métricas, datos faltantes y criterios de decisión. |
+
+Cada recomendación vincula objetivo, acción, recurso, métrica y evidencia faltante. El impacto esperado sigue siendo hipótesis hasta medirse. No se envían campañas ni se gasta presupuesto sin autorización explícita.
 
 ## 📂 Estructura
 
-```text
-visual-craft-workflow/
-├── assets/
-│   ├── Visual-Craft-Workflow-ejemplo.webm
-│   └── visual-craft-workflow-banner.png
-├── CHANGELOG.md
-├── README.md
-├── references/
-│   └── liquid-glass-style.md
-└── SKILL.md
-```
+    visual-craft-workflow/
+    ├── assets/
+    │   ├── backup/
+    │   │   └── visual-craft-workflow-banner-anterior.png
+    │   ├── flujo-de-pedido-en-cuatro-etapas.png
+    │   ├── Visual-Craft-Workflow-ejemplo.webm
+    │   └── visual-craft-workflow-banner.png
+    ├── references/
+    │   ├── liquid-glass-style.md
+    │   ├── marketing-workflow.md
+    │   ├── motion.md
+    │   ├── quality-review.md
+    │   ├── ui-tooling.md
+    │   └── visual-direction.md
+    ├── CHANGELOG.md
+    ├── LICENSE
+    ├── README.md
+    └── SKILL.md
 
-El nombre del repositorio, la carpeta de la skill y el campo name del manifiesto usan visual-craft-workflow.
-
-El banner reúne el nombre, el emblema de vidrio líquido y las capacidades del flujo en una sola imagen. La referencia Liquid Glass se carga solo cuando la dirección visual la pide; no se impone a otros proyectos.
+El nombre del repositorio, la carpeta de la skill y el campo name del manifiesto usan visual-craft-workflow. La portada, el ejemplo en video y los recursos existentes se conservan como parte del repositorio.
 
 ## 📥 Instalación
 
@@ -81,18 +105,14 @@ El repositorio es público y se puede clonar sin autenticarte. No guardes tokens
 
 En PowerShell:
 
-```powershell
-New-Item -ItemType Directory -Force "$env:USERPROFILE\.agents\skills" | Out-Null
-git clone https://github.com/ARG-NILLS/visual-craft-workflow.git "$env:USERPROFILE\.agents\skills\visual-craft-workflow"
-```
+    New-Item -ItemType Directory -Force "$env:USERPROFILE\.agents\skills" | Out-Null
+    git clone https://github.com/ARG-NILLS/visual-craft-workflow.git "$env:USERPROFILE\.agents\skills\visual-craft-workflow"
 
 Recargá Codex si la skill no aparece.
 
 ### Gemini CLI
 
-```powershell
-gemini skills install https://github.com/ARG-NILLS/visual-craft-workflow
-```
+    gemini skills install https://github.com/ARG-NILLS/visual-craft-workflow
 
 En una sesión interactiva, confirmá que aparezca con /skills list.
 
@@ -100,42 +120,41 @@ En una sesión interactiva, confirmá que aparezca con /skills list.
 
 Desde la raíz del proyecto:
 
-```powershell
-New-Item -ItemType Directory -Force ".minimax\skills" | Out-Null
-git clone https://github.com/ARG-NILLS/visual-craft-workflow.git ".minimax\skills\visual-craft-workflow"
-```
+    New-Item -ItemType Directory -Force ".minimax\skills" | Out-Null
+    git clone https://github.com/ARG-NILLS/visual-craft-workflow.git ".minimax\skills\visual-craft-workflow"
 
 Volvé a abrir la sesión para cargar cambios.
 
 ### Otros agentes
 
-Instalá la carpeta en una ruta que el host descubra. Si no carga Agent Skills, compartí SKILL.md o sus instrucciones. Un formato portable no activa la skill automáticamente en cada producto.
+Instalá la carpeta en una ruta que el host descubra. Si el agente no carga Agent Skills, compartí SKILL.md y las referencias necesarias. El formato portable no activa la skill automáticamente en cada producto.
 
 ## 🧩 Compatibilidad
 
 | Host | Compatibilidad documentada | Límite conocido |
 | --- | --- | --- |
-| [Codex](https://developers.openai.com/plugins/concepts/skills) | Usa carpetas con un manifiesto SKILL.md y las instrucciones asociadas. | La ruta de instalación depende del perfil y del entorno. |
-| [Gemini CLI](https://geminicli.com/docs/cli/using-agent-skills/) | Permite instalar desde un repositorio y listar skills disponibles. | Esto no implica soporte automático en Gemini web. |
-| [MiniMax Code](https://github.com/MiniMax-AI/minimax-code/blob/main/docs/tui-capabilities.md#skill-directory-links) | Documenta raíces de skills del proyecto en .agents/skills y .minimax/skills. | La disponibilidad depende de la configuración y de la sesión. |
-| Otros agentes | Puede usarse si el host lee el formato o el archivo. | Invocación, herramientas y permisos dependen del host. |
+| [Codex](https://developers.openai.com/plugins/concepts/skills) | Lee carpetas de skills con un manifiesto SKILL.md y sus instrucciones asociadas. | La ruta depende del perfil y el entorno. |
+| [Gemini CLI](https://geminicli.com/docs/cli/skills/) | Permite instalar skills desde un repositorio y listar las disponibles. | No implica soporte automático en Gemini web. |
+| [MiniMax Code](https://github.com/MiniMax-AI/minimax-code/blob/main/docs/tui-capabilities.md#skill-directory-links) | Documenta raíces de skills de proyecto, incluidos .agents/skills y .minimax/skills. | La disponibilidad depende de la configuración y sesión. |
+| Otros agentes | Puede usarse si el host lee este formato o el archivo. | Invocación, herramientas y permisos dependen del host. |
 
-La tabla resume documentación oficial consultada; no afirma que cada entorno se haya probado en ejecución.
+La tabla resume documentación consultada; no afirma que cada entorno se haya probado en ejecución.
 
 ## 💬 Ejemplos
 
-- “Usá visual-craft-workflow para rediseñar esta página de inicio. Conservá la marca y las tecnologías.”
-- “Auditá diseño adaptable, navegación y teclado. Informá hallazgos; no edites.”
+- “Usá visual-craft-workflow para rediseñar esta página. Conservá marca y tecnologías.”
+- “Auditá navegación, adaptación y teclado. Informá hallazgos; no edites.”
 - “Mejorá este modal sin cambiar la dirección visual.”
-- “Definí el sistema visual de esta app según su plataforma y tarea principal. Conservá la identidad que ya existe.”
-- “Prepará este repositorio: revisá nombre, descripción, README y consistencia.”
+- “Armá una estrategia de lanzamiento para este producto. Separá hechos, supuestos y datos faltantes.”
+- “Revisá esta campaña y proponé mejoras de copy y medición. No publiques ni la envíes.”
+- “Analizá el onboarding y la retención con los datos disponibles. No inventes métricas.”
 
 ## 👤 Autoría y cambios
 
-Creado y mejorado por **ARG-NILLS**. La arquitectura del flujo, sus criterios de adaptación, la documentación y la identidad visual pertenecen a este proyecto. El repositorio presenta sus capacidades sin enumerar skills, autores ni repositorios externos.
+Creado y mejorado por **ARG-NILLS**. El repositorio presenta las capacidades propias del proyecto sin enumerar skills, autores ni repositorios externos.
 
 Revisá [CHANGELOG.md](CHANGELOG.md) para ver su evolución.
 
 ## ⚖️ Licencia
 
-Este proyecto se distribuye bajo la licencia [MIT](LICENSE). Al redistribuir copias o partes sustanciales, conservá el aviso de derechos de autor y el texto de permiso incluidos en LICENSE.
+Este proyecto se distribuye bajo la licencia [MIT](LICENSE). Al redistribuir copias o partes sustanciales, conservá el aviso de derechos de autor y el texto de permiso incluidos en LICENSE. Esa licencia no reemplaza las condiciones de dependencias, componentes, fuentes, fotos, videos ni otros recursos externos; revisá cada licencia y aviso por separado.
