@@ -1,7 +1,8 @@
-<p align="center"><img src="assets/visual-craft-workflow-banner.png" alt="Visual Craft Workflow: flujo visual y de producto con cinco capacidades. Creado por ARG-NILLS." width="100%"></p>
+<p align="center"><img src="assets/visual-craft-workflow-banner.png" alt="Visual Craft Workflow de ARG-NILLS. Dirección visual, UX de producto, interacción, marketing de producto y revisión con evidencia." width="100%"></p>
 
 <p align="center">
   <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/Agent%20Skills-compatible-6C63FF?style=for-the-badge" alt="Formato Agent Skills compatible"></a>
+  <a href="https://github.com/ARG-NILLS/visual-craft-workflow/releases/latest"><img src="https://img.shields.io/github/v/release/ARG-NILLS/visual-craft-workflow?display_name=tag&amp;label=Versi%C3%B3n&amp;style=for-the-badge&amp;color=4579AE" alt="Última versión estable"></a>
   <a href="#-flujo-adaptable"><img src="https://img.shields.io/badge/Flujo-adaptable-8B5CF6?style=for-the-badge" alt="Flujo adaptable"></a>
   <a href="#-compatibilidad"><img src="https://img.shields.io/badge/Agentes-Codex%20%7C%20Gemini%20CLI%20%7C%20MiniMax-14B8A6?style=for-the-badge" alt="Compatibilidad documentada con distintos agentes"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Licencia-MIT-D6B948?style=for-the-badge" alt="Licencia MIT"></a>
@@ -34,7 +35,7 @@ Conserva la marca, las tecnologías, el contenido y las restricciones del proyec
 
 https://github.com/user-attachments/assets/e823339a-4e51-4de6-907c-e5fcdba8dce3
 
-<p align="center">Descargá el video: <a href="assets/Visual-Craft-Workflow-ejemplo.webm">Visual-Craft-Workflow-ejemplo.webm</a>.</p>
+<p align="center">Descargá el video: <a href="assets/Visual-Craft-Workflow-ejemplo.webm">Visual-Craft-Workflow-ejemplo.webm</a> · 16,5 s.</p>
 <p align="center">El video muestra un recorrido animado; el diagrama superior presenta las rutas actuales.</p>
 
 ### Capacidades
@@ -58,6 +59,7 @@ Activá solo las etapas que mejoran el resultado. El flujo funciona sin herramie
 | Proyecto nuevo o rediseño | Comprender producto, definir dirección y validar experiencia. |
 | Movimiento o efecto visual | Revisar propósito, accesibilidad, adaptación y costo. |
 | Marketing de producto digital | Activar los grupos comerciales necesarios. |
+| Repositorio visual | Elegir diagramas, capturas directas o demos según el proyecto. Revisar el README renderizado y acompañar cada versión final con notas de release. |
 | Trabajo combinado | Compartir contexto y objetivo entre diseño y marketing. |
 | Pedido no visual ni comercial | Omitir este flujo. |
 
@@ -70,9 +72,17 @@ Activá solo las etapas que mejoran el resultado. El flujo funciona sin herramie
 | **Adquisición** | SEO, búsqueda con IA, anuncios, redes, alianzas, comunidad, prensa y eventos. | Canales elegidos según objetivo, recursos y evidencia. |
 | **Conversión y activación** | Páginas, formularios, registro, onboarding y planes. | Recorrido claro, acción real y medición pertinente. |
 | **Retención y recomendación** | Mensajes, recuperación, cancelación, referidos y expansión. | Experimentos o recorridos con consentimiento y objetivo claro. |
-| **Operación y medición** | Analítica, atribución, experimentos y coordinación comercial. | Métricas, datos faltantes y criterios de decisión. |
+| **Operación y medición** | Analítica, atribución, UTMs para campañas externas, experimentos y coordinación comercial. | Convención de nombres, enlaces verificados, métricas y datos faltantes. |
 
 Cada recomendación vincula objetivo, acción, recurso, métrica y evidencia faltante. El impacto esperado sigue siendo hipótesis hasta medirse. No se envían campañas ni se gasta presupuesto sin autorización explícita.
+
+### Ejemplo de campaña con UTM
+
+Querés distinguir las visitas de una newsletter que anuncia una demo. Para un enlace externo, el resultado ilustrativo es `https://example.com/demo?utm_source=newsletter&utm_medium=email&utm_campaign=demo-producto`.
+
+| Fuente | Canal | Campaña | Qué comprobar |
+| --- | --- | --- | --- |
+| `newsletter` | `email` | `demo-producto` | Abrí el enlace, seguí las redirecciones y comprobá en tu analítica los valores recibidos. |
 
 ## 📂 Estructura
 
@@ -142,18 +152,21 @@ La tabla resume documentación consultada; no afirma que cada entorno se haya pr
 
 ## 💬 Ejemplos
 
+- “Revisá la portada y el README de este repo. Comprobá que se entienda el proyecto y que funcionen los badges y enlaces.”
+
 - “Usá visual-craft-workflow para rediseñar esta página. Conservá marca y tecnologías.”
 - “Auditá navegación, adaptación y teclado. Informá hallazgos; no edites.”
 - “Mejorá este modal sin cambiar la dirección visual.”
 - “Armá una estrategia de lanzamiento para este producto. Separá hechos, supuestos y datos faltantes.”
 - “Revisá esta campaña y proponé mejoras de copy y medición. No publiques ni la envíes.”
+- “Prepará UTMs para estos enlaces de campaña. Respetá la convención existente y verificá que no se pierdan en la redirección.”
 - “Analizá el onboarding y la retención con los datos disponibles. No inventes métricas.”
 
 ## 👤 Autoría y cambios
 
 Creado y mejorado por **ARG-NILLS**. El repositorio presenta las capacidades propias del proyecto sin enumerar skills, autores ni repositorios externos.
 
-Revisá [CHANGELOG.md](CHANGELOG.md) para ver su evolución.
+Consultá la [última versión estable y sus notas](https://github.com/ARG-NILLS/visual-craft-workflow/releases/latest) o recorré el [historial completo](CHANGELOG.md).
 
 ## ⚖️ Licencia
 

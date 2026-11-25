@@ -2,6 +2,14 @@
 
 > Registro de cambios publicados y mejoras en preparación.
 
+## [1.3.0] - 2026-11-24
+
+- 🔎 Encontrá la skill al pedir una auditoría web, un ajuste de interfaz o enlaces de campaña con UTM.
+- 🔗 Armá enlaces de campaña consistentes y comprobá qué etiquetas llegan al destino y cuáles registra tu analítica.
+- 🖼️ Prepará un README con una portada, un recorrido visual y ejemplos reales. La nueva guía explica cuándo conviene usar un diagrama, una captura de la interfaz o una demo en video.
+- 🎬 Revisá animaciones, materiales de vidrio y componentes con la composición acordada, el movimiento reducido y el rendimiento del proyecto a la vista.
+- 📦 Cerrá las entregas con un tag y una release del mismo commit, con notas breves para quienes usan el proyecto.
+
 ## [1.2.0] - 2026-10-26
 
 > Amplía el flujo con marketing de producto, rutas especializadas y validación basada en evidencia.

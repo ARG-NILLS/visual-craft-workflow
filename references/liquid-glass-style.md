@@ -12,7 +12,7 @@ Definí superficie o recurso, propósito, silueta, paleta, fondo, plataforma, co
 
 Para una imagen o recurso de marca, describí un render 3D translúcido y brillante, curvas fluidas, capas de profundidad, iluminación suave, cáusticas, reflejos y oclusión ambiental. Adaptá silueta, color, composición y fondo al recurso real. No agregues letras, logos ni objetos sin pedido. Simplificá detalles para tamaños pequeños.
 
-Para una interfaz web, limitá el material a superficies con un propósito claro. Mantené texto denso y controles sobre fondos suficientemente estables. Conservá contraste, foco y respuesta visual sin depender del desenfoque. Prepará una alternativa sólida o translúcida simple para navegadores y dispositivos donde el filtro no funcione o cueste demasiado.
+Para una interfaz web, limitá el material a superficies con un propósito claro. Mantené texto denso y controles sobre fondos suficientemente estables. Conservá contraste, foco y respuesta visual sin depender del desenfoque. Prepará una alternativa sólida o translúcida simple para cuando falle la refracción, el navegador solo admita desenfoque o el efecto cueste demasiado. Probá la alternativa también con el efecto desactivado: comprobar que existe una propiedad CSS no garantiza que el navegador componga bien la escena.
 
 Para iOS nativo, verificá la documentación vigente de la plataforma y usá APIs compatibles. No traslades APIs nativas a código web.
 

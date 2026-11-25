@@ -16,11 +16,12 @@ Reuní producto, audiencia, tarea, plataforma, marca, contenido, recursos dispon
 4. Ordená primero la composición estática y el contenido real. Definí jerarquía, ritmo, tipografía, color, densidad, imágenes y espacios de descanso según la marca y la superficie.
 5. Si estudiás referencias, registrá qué problema resuelven, qué técnica puede adaptarse y qué debe cambiar para que la propuesta responda al producto propio. Si la referencia tiene movimiento, capturá sus disparadores, ritmo, duración y respuesta a distintos tamaños. No copies composiciones, marcas, código ni materiales sin permiso.
 6. Para una pieza audiovisual, definí una secuencia de escenas, transiciones y cierre antes de animar. Usá máscaras o cambios de plano para explicar una idea, no como efecto aislado.
-7. Mostrá una primera composición antes de sumar animación o efectos. Revisá recortes, contraste, legibilidad y adaptación con contenido real; definí una alternativa si el video o la animación no carga.
+7. Acordá una composición cuando el diseño cambie de forma sustancial. Si ya hay una referencia aprobada, registrá qué decisiones fija y cuáles siguen abiertas. Compará el resultado a igual ancho, estado y contenido para localizar diferencias concretas.
+8. Mostrá flujos y datos del producto cuando ayuden a entender la propuesta. Distinguí capturas reales, composiciones ilustrativas y material faltante. Revisá recortes, contraste y legibilidad, y definí una alternativa si el video o la animación no carga.
 
 En páginas públicas, hacé visible la propuesta y su prueba. En herramientas de uso, priorizá la tarea, la lectura, los estados y la eficiencia. En una pieza experimental, dejá que la idea visual tenga protagonismo sin falsear el producto.
 
-Si el entorno ofrece búsqueda o captura visual autorizada, usala para investigar y comparar referencias, no para clonar sitios ni redistribuir sus recursos. Revisá condiciones de uso antes de recopilar o publicar material.
+Si el entorno ofrece búsqueda o captura visual autorizada, usala para investigar y comparar referencias, no para clonar sitios ni redistribuir sus recursos. Revisá condiciones de uso antes de recopilar o publicar material, incluso cuando la herramienta y el contenido observado tengan licencias distintas. Para estudiar una interacción, registrá el estado inicial, el disparador y el estado final mediante capturas o video propios cuando esté permitido.
 
 ## Entregable
 

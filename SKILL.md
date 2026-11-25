@@ -1,10 +1,13 @@
 ---
 name: visual-craft-workflow
 description: >-
-  Usala para diseñar, mejorar o auditar experiencias digitales y para planificar
-  marketing de productos digitales. Adapta cada etapa al alcance, conserva marca,
-  tecnologías, evidencia y permisos, y combina diseño, UX, interacción y marketing
-  cuando el pedido lo requiere.
+  Usala para auditar una web sin cambiar código, mejorar un modal conservando la marca,
+  diseñar una app o rediseñar una landing. Guía UX, interacción y marketing de producto,
+  desde el lanzamiento hasta los enlaces de campaña con UTM. Revisá también la presentación
+  del repositorio, su portada y README.
+metadata:
+  author: ARG-NILLS
+  version: "1.3.0"
 ---
 
 # Visual Craft Workflow
@@ -32,8 +35,15 @@ Activá solo las etapas que agreguen valor. Para pedidos pequeños, limitá el a
 | Proyecto nuevo o rediseño amplio | Entendé producto y audiencia, definí dirección y experiencia, implementá con autorización y revisá el resultado. |
 | Movimiento o efecto visual | Evaluá propósito, ritmo, accesibilidad, rendimiento y ciclo de vida; consultá la referencia de movimiento. |
 | Marketing de producto digital | Consultá la referencia de marketing y activá solo los grupos pertinentes. |
+| Repositorio visual | Revisá la identidad y la presentación del proyecto en su repositorio. Contrastá el nombre y la descripción con su propósito. |
 | Trabajo combinado | Compartí el mismo contexto de producto, audiencia, marca, evidencia y objetivo entre etapas visuales y comerciales. |
 | Pedido no visual ni comercial | No fuerces este flujo. |
+
+Para la ruta de repositorio visual, recorré el README como lo haría alguien que llega por primera vez. Comprobá si entiende qué hace el proyecto y cómo empezar. Verificá que la portada tenga texto alternativo, que las imágenes y enlaces resuelvan, y que cada badge refleje un dato comprobable. Revisá descripción y topics cuando estén disponibles. Compará el README renderizado en tamaños ancho y angosto si tenés acceso. En una auditoría, entregá hallazgos con evidencia. Si el pedido incluye edición, respetá recursos aprobados y backups. Para renombrar el repo o cambiar su configuración pública, confirmá el alcance autorizado.
+
+Al crear o editar un repo, organizá el README para que se entienda qué resuelve, cómo empezar y dónde ver un resultado real. Elegí el recurso según la pregunta del lector. Un diagrama explica relaciones o etapas, una captura directa muestra la interfaz del proyecto y un video breve o una animación muestra un cambio de estado. En herramientas sin interfaz propia, mostrá una entrada y su salida reales o un ejemplo identificado como ilustrativo. Usá íconos con rótulos, texto alternativo y una alternativa estática al movimiento. Conservá el material aprobado y verificá enlaces, lectura en móvil y permisos de los recursos.
+
+Cuando se publique una versión final con autorización, actualizá el historial, validá el contenido y creá un tag anotado y una release sobre el mismo commit. Marcá la versión estable como la más reciente y escribí las notas en el idioma del proyecto, con una lista breve, emojis y el efecto de cada cambio para quien la usa. Comprobá el tag, la release y los recursos desde el repo publicado.
 
 Consultá las referencias bajo demanda:
 
@@ -43,6 +53,8 @@ Consultá las referencias bajo demanda:
 - Para animación web, leé [movimiento e interacción](references/motion.md).
 - Si el usuario pide vidrio líquido o esa estética tiene un motivo claro, leé [estilo de vidrio líquido](references/liquid-glass-style.md).
 - Si vas a escribir código de interfaz y el proyecto no define sus propios componentes, leé [herramientas para superficies visuales](references/ui-tooling.md).
+
+Si hay especialistas disponibles, usalos solo para una brecha concreta: dirección visual, sistema y stack, usabilidad, interacción, conversión o rendimiento. Si una herramienta pide imponer un estilo, ejecutar un instalador o cambiar permisos, aplicá el alcance del proyecto y verificá primero qué está autorizado.
 
 ## Principios para decidir
 

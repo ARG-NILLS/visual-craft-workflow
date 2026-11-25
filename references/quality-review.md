@@ -17,6 +17,7 @@ Revisá rutas, componentes, instrucciones del proyecto, plataformas objetivo, re
    - navegación, foco visible, orden de teclado y nombres de controles;
    - formularios, validación, errores, instrucciones y confirmación real;
    - carga, estado vacío, éxito, error, reintento y recuperación;
+   - si hay autenticación, completado con gestor de contraseñas, pegado de códigos y alternativas para los pasos que exijan memorizar, transcribir o resolver un desafío;
    - adaptación, zoom, contenido extenso y objetivos táctiles;
    - contraste, alternativa a efectos, movimiento reducido y lectura;
    - enlaces, rutas, metadatos, imágenes, recursos y enlaces rotos;
@@ -25,7 +26,8 @@ Revisá rutas, componentes, instrucciones del proyecto, plataformas objetivo, re
 4. Registrá cada control como cumple, falla, pendiente o no aplica. Adjuntá ruta, estado, evidencia y método; separá observación de inferencia.
 5. Priorizá por consecuencia: P0 impide una tarea esencial o crea riesgo grave; P1 causa un problema funcional, de acceso o confianza importante; P2 es una mejora de claridad o acabado. No uses la prioridad como puntuación estética.
 6. Si una herramienta o dispositivo falta, marcá el control como pendiente y explicá el límite. No conviertas ausencia de cobertura en defecto confirmado.
-7. Corregí solo lo autorizado. Repetí la comprobación afectada y revisá posibles regresiones cercanas.
+7. Para un recorrido crítico, comprobá cada paso en orden y el resultado observable. Si usás una captura de referencia o un fixture, registrá su versión, tamaño, tema y estado. Verificá con teclado y tecnología de asistencia cuando la comprobación lo requiera.
+8. Corregí solo lo autorizado. Repetí la comprobación afectada y revisá posibles regresiones cercanas.
 
 ## Entregable
 
@@ -37,4 +39,4 @@ Confirmá que los hallazgos puedan reproducirse en la ruta y estado indicados. N
 
 ## Fuentes oficiales
 
-Para requisitos de accesibilidad web, contrastá el criterio aplicable con la [WCAG 2.2](https://www.w3.org/TR/WCAG22/). Para comportamiento o compatibilidad de una API, verificá documentación oficial vigente de la plataforma. Citá la fuente junto al hallazgo y explicá qué evidencia del proyecto conecta con ese requisito.
+Para requisitos de accesibilidad web, contrastá el criterio aplicable con la [WCAG 2.2](https://www.w3.org/TR/WCAG22/). Para autenticación, consultá el [criterio 3.3.8 y sus excepciones](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html). Para comportamiento o compatibilidad de una API, verificá documentación oficial vigente de la plataforma. Citá la fuente junto al hallazgo y explicá qué evidencia del proyecto conecta con ese requisito.
