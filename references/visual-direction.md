@@ -23,6 +23,10 @@ En páginas públicas, hacé visible la propuesta y su prueba. En herramientas d
 
 Si el entorno ofrece búsqueda o captura visual autorizada, usala para investigar y comparar referencias, no para clonar sitios ni redistribuir sus recursos. Revisá condiciones de uso antes de recopilar o publicar material, incluso cuando la herramienta y el contenido observado tengan licencias distintas. Para estudiar una interacción, registrá el estado inicial, el disparador y el estado final mediante capturas o video propios cuando esté permitido.
 
+### Elegir cómo explicar un recorrido
+
+Usá un diagrama cuando importe el orden, una decisión o la relación entre partes. Por ejemplo, para explicar un alta con verificación de correo, ubicá la bifurcación en el paso que comprueba el enlace y rotulá las salidas «vigente» y «vencido». Para comparar atributos de planes, preferí una tabla. Reutilizá los colores del proyecto y comprobá que el recorrido se entienda también por sus rótulos y que se lea en móvil.
+
 ## Entregable
 
 Dejá una dirección breve con concepto, jerarquía, elementos que se conservan, cambios solicitados, materiales disponibles o faltantes y criterios de aceptación. Para un cambio puntual, especificá solo el área afectada.

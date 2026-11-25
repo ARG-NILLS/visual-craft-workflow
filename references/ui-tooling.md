@@ -19,6 +19,12 @@ Revisá stack, componentes, tokens, dependencias, licencias, problema de comport
 
 Para controles complejos, evaluá semántica, foco, teclado, estados, errores y uso táctil. Para efectos, evaluá lectura, contraste, movimiento reducido y costo de renderizado. Para recursos externos, revisá derechos y atribuciones aplicables.
 
+### Elegir y probar un componente
+
+Si el proyecto ya usa React, compará las variantes del componente con el lenguaje y los estilos del repo. Para un fondo interactivo, probá que el título y la acción principal sigan disponibles cuando el efecto tarda en cargar, falla o se desactiva. Pausá el renderizado decorativo fuera de pantalla o con la pestaña en segundo plano.
+
+Para un menú flotante, anclá el panel al control que lo abre. Probalo cerca del borde inferior, con zoom y con una lista larga. Al cerrar con Escape, verificá que el foco vuelva al disparador y que Tab deje de entrar al panel oculto.
+
 ## Entregable
 
 Indicá la brecha que se resuelve, la opción elegida, el costo y la licencia comprobados, y el comportamiento que se validó. Si no agregaste nada, no lo presentes como una integración realizada.

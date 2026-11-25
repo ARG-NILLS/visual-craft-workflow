@@ -1,13 +1,12 @@
 ---
 name: visual-craft-workflow
 description: >-
-  Usala para auditar una web sin cambiar código, mejorar un modal conservando la marca,
-  diseñar una app o rediseñar una landing. Guía UX, interacción y marketing de producto,
-  desde el lanzamiento hasta los enlaces de campaña con UTM. Revisá también la presentación
-  del repositorio, su portada y README.
+  Usala para diseño web y UX. Si te piden «mejorá mi web», auditar una web sin cambiar código,
+  mejorar un modal conservando la marca o rediseñar una landing, elegí esta guía. Cubre apps,
+  componentes, diagramas, animaciones, marketing, enlaces UTM y repositorios visuales.
 metadata:
   author: ARG-NILLS
-  version: "1.3.0"
+  version: "1.3.1"
 ---
 
 # Visual Craft Workflow
@@ -47,7 +46,7 @@ Cuando se publique una versión final con autorización, actualizá el historial
 
 Consultá las referencias bajo demanda:
 
-- Para concepto, composición o uso de materiales, leé [dirección visual](references/visual-direction.md).
+- Para elegir un diagrama, definir la composición o usar materiales, leé [dirección visual](references/visual-direction.md).
 - Para estrategia, contenido, adquisición, conversión, retención o medición, leé [marketing de producto](references/marketing-workflow.md).
 - Para inspeccionar o validar una interfaz, leé [revisión de calidad](references/quality-review.md).
 - Para animación web, leé [movimiento e interacción](references/motion.md).

@@ -19,6 +19,10 @@ Identificá propósito, elemento, evento que inicia el movimiento, estado inicia
 7. Adaptá distancias, duración y composición a viewport, entrada táctil y contenido real. No dependas solo de hover o puntero.
 8. Si se usa un motor externo, comprobá versión, ciclo de vida, alcance de selectores, limpieza y consultas de medios. Volvé a probar cuando cambie el breakpoint o la preferencia de movimiento con la interfaz abierta. En secuencias con video, comprobá la alternativa estática, el primer fotograma útil y la pausa fuera de vista cuando corresponda.
 
+### Prueba de interrupción
+
+Abrí un panel, cerralo antes de que termine la entrada y volvé a abrirlo. La transición debe continuar desde su posición visible y terminar en el estado de la última acción. Revisá que un callback anterior no vuelva a ocultarlo y que el texto conserve sus proporciones. Si hay tirones al desplazar el puntero, medí el costo antes de modificar el efecto.
+
 ## Entregable
 
 Documentá propósito, disparador, estados, ritmo, interrupción, adaptación, comportamiento con movimiento reducido, dependencia y comprobaciones pendientes.

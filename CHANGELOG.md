@@ -2,6 +2,13 @@
 
 > Registro de cambios publicados y mejoras en preparación.
 
+## [1.3.1] - 2026-11-24
+
+- 🧭 Pedí una auditoría web, un ajuste de interfaz o un rediseño desde la misma skill. El recorrido elige las guías de componentes, movimiento o diagramas según la tarea.
+- ⌨️ Comprobá que un menú se pueda recorrer con teclado y que el foco vuelva al control al cerrarlo.
+- 🎬 Probá qué ocurre al cerrar y reabrir un panel a mitad de su animación y si el contenido principal sigue disponible cuando falla un fondo animado.
+- 🗺️ Elegí entre un diagrama y una tabla según lo que necesites explicar. El README incluye ejemplos para probarlo.
+
 ## [1.3.0] - 2026-11-24
 
 - 🔎 Encontrá la skill al pedir una auditoría web, un ajuste de interfaz o enlaces de campaña con UTM.

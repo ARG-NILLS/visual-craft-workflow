@@ -156,7 +156,8 @@ La tabla resume documentación consultada; no afirma que cada entorno se haya pr
 
 - “Usá visual-craft-workflow para rediseñar esta página. Conservá marca y tecnologías.”
 - “Auditá navegación, adaptación y teclado. Informá hallazgos; no edites.”
-- “Mejorá este modal sin cambiar la dirección visual.”
+- “Mejorá este modal sin cambiar la dirección visual. Probá qué pasa si lo cierro antes de que termine de abrirse.”
+- “Explicá el alta con un diagrama que muestre qué pasa cuando vence el enlace de verificación.”
 - “Armá una estrategia de lanzamiento para este producto. Separá hechos, supuestos y datos faltantes.”
 - “Revisá esta campaña y proponé mejoras de copy y medición. No publiques ni la envíes.”
 - “Prepará UTMs para estos enlaces de campaña. Respetá la convención existente y verificá que no se pierdan en la redirección.”
